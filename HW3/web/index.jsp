@@ -2,38 +2,9 @@
     Document   : inde
     Created on : Oct 2, 2015, 1:52:08 PM
     Author     : shylaruppert
-    If hoursWorked > 40 then 
-        regularHours = 40
-        otHours= hoursWorked - 40 
-        otPayRate= payRate * 1.5
-        otPay= otHours * otPayRate
-        regularPay = regularHours * payRate
-        grossPay = regularPay + otPay
-    else 
-        grossPay = hoursWorked * payRate
-
-    grossPay -preTaxDeduct = taxablePay 
-
-    If grossPay <$500 then taxAmount = taxablePay *.18
-    else 
-        taxAmount = taxablePay * .22 
-        
-    postTaxPay = taxablePay - taxAmount
-    netPay = postTaxPay - postTaxDeduct
-    Int hoursWorked = 
-        Int regHours =
-        Int otHours= 
-        Int otPayRate =
-        Int payRate =
-        Int grossPay =
-        Int preTaxDeduct =
-        Int taxablePay =
-        Int taxAmount = 
-        Int postTaxPay = 
-        Int netPay = 
+    
 ￼
 --%>
-<%@page import="java.util.Date"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
